@@ -491,6 +491,17 @@
             justify-content: center;
         }
 
+        .input {
+            flex-direction: column;
+            align-items: start;
+            justify-content: start;
+            gap: 0.75rem;
+        }
+
+        .input > p {
+            font-size: 1rem;
+        }
+
         .info {
             flex-direction: column;
         }
