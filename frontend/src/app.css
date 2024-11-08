@@ -108,3 +108,10 @@ i {
     width: 1px;
     white-space: nowrap;
 }
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+    .message-tray {
+        top: 85%;
+    }
+}
